@@ -1,4 +1,4 @@
-# 💫 Credit Score Classification
+# 💫 Credit Score Classification 
 
 The credit score of a person determines their creditworthiness, which is a crucial factor for financial companies in deciding whether to approve or deny loan or credit applications. A higher credit score indicates a lower risk of default, while a lower credit score suggests a higher risk. This project aims to develop a machine learning model that can classify credit scores based on various factors, providing valuable insights for financial institutions and individuals alike.
 
@@ -47,3 +47,47 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/Artificial-Ledger-Technology/credit-score-classification.git
+```
+
+2. Navigate to the project directory:
+   
+```bash
+cd credit-score-classification
+```
+
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Usage
+1. Preprocess the data by running the `preprocess.py` script:
+
+```bash
+python preprocess.py
+```
+
+2. Train the machine learning model by running the `train.py` script:
+```bash
+python train.py
+```
+
+3. Evaluate the model's performance using the `evaluate.py` script:
+```bash
+python evaluate.py
+```
+
+4. Make predictions on new data using the  `predict.py` script:
+```bash
+python predict.py --input-file path/to/input/data.csv
+```
+
+# Contributing  
+
+Contributing
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+# License
+This project is licensed under the MIT License.
+
+This documentation provides a comprehensive overview of the credit score classification project, including an introduction, dataset information, feature descriptions, installation instructions, usage guidelines, contributing guidelines, and licensing information. You can customize and expand this documentation as needed based on your specific project requirements.
